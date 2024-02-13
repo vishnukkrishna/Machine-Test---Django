@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-1qp!uy^e%*j958ix!91rnjq81lduupvhmr6^shs=r6k&)_gpz1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -175,6 +175,7 @@ APPEND_SLASH = False
 CORS_ALLOWED_ORIGINS  = [
     "http://127.0.0.1:8000",
     "http://localhost:5173",
+    "https://machine-test-reactjs.vercel.app"
 ]
 
 # Static files (CSS, JavaScript, Images)
